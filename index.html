@@ -638,13 +638,21 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
   .stats-row{flex-wrap:wrap}
   .stat-cell{min-width:150px;border-right:none;border-bottom:1px solid rgba(255,255,255,.06)}
   /* Navbar responsive fixes */
-  nav{padding:.85rem 1rem}
-  .nav-logo img{height:36px}
-  .nav-logo span{font-size:18px;margin-top:12px}
-  .nav-right{flex-direction:column;gap:.5rem;align-items:flex-start}
-  .btn-nav{font-size:.75rem;padding:.5rem 1rem;white-space:nowrap}
+  nav{padding:.85rem .9rem}
+  .nav-logo img{height:34px}
+  .nav-logo span{font-size:17px;margin-top:10px}
+  .nav-right{flex-direction:column;gap:.5rem;align-items:flex-start;width:100%}
+  .nav-right a{max-width:100%;word-break:break-word;white-space:normal}
+  .btn-nav{font-size:.75rem;padding:.55rem 1rem}
   .nav-tel{font-size:.8rem}
+  /* Sticky bar responsive fixes */
+  .sticky{padding:.8rem 1rem}
+  .sticky-right{flex-wrap:wrap;justify-content:flex-start}
+  .sticky-right .sticky-tel,
+  .sticky-right .btn-nav{width:100%;max-width:100%;}
+  .sticky-right .btn-nav{justify-content:center}
 }
+
 </style>
 </head>
 <body>
