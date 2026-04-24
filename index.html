@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-NPJ7R6FD');</script>
+
+<!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GlocalAssist Expert Virtual Assistants from $9/hr | USA Businesses</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!-- EmailJS Script -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "QpkBmnT4LJ4PGyWTX",
+      });
+   })();
+</script>
 <style>
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -637,9 +659,6 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
   .ann-bar{font-size:.73rem}
   .stats-row{flex-wrap:wrap}
   .stat-cell{min-width:150px;border-right:none;border-bottom:1px solid rgba(255,255,255,.06)}
-  .pain-cta-row{padding:1.5rem 1rem;gap:1rem;align-items:flex-start;justify-content:flex-start}
-  .pain-cta-row p{max-width:100%;font-size:1rem}
-  .btn-white{width:100%;white-space:normal;min-width:0;justify-content:center}
   /* Navbar responsive fixes */
   nav{padding:.85rem .9rem}
   .nav-logo img{height:34px}
@@ -654,16 +673,25 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
   .sticky-right .sticky-tel,
   .sticky-right .btn-nav{width:100%;max-width:100%;}
   .sticky-right .btn-nav{justify-content:center}
+  /* Pain CTA responsive fixes */
+  .pain-cta-row{padding:1.5rem 1rem;gap:1rem;align-items:flex-start;justify-content:flex-start}
+  .pain-cta-row p{max-width:100%;font-size:1rem}
+  .btn-white{width:100%;white-space:normal;min-width:0;justify-content:center}
 }
-
 </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
 
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPJ7R6FD"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
 <!-- ANNOUNCEMENT BAR -->
 <div class="ann-bar">
   <span class="ann-pill">&#x1F525; Limited Offer</span>
-  <span>First 24 hours <strong>FREE</strong> No credit card. No contracts. Cancel any time. &nbsp;<a href="#hire-now">Claim Now</a></span>
+  <span>First 40 hours <strong>FREE</strong> No credit card. No contracts. Cancel any time. &nbsp;<a href="#hire-now">Claim Now</a></span>
 </div>
 
 <!-- NAV -->
@@ -782,19 +810,19 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
           <form id="heroForm" novalidate>
             <div class="fg">
               <label for="hf1">Full Name *</label>
-              <input id="hf1" type="text" placeholder="Sarah" required>
+              <input id="hf1" name="user_name" type="text" placeholder="Sarah" required>
             </div>
             <div class="fg">
               <label for="hf3">Business Email *</label>
-              <input id="hf3" type="email" placeholder="sarah@yourbusiness.com" required>
+              <input id="hf3" name="user_email" type="email" placeholder="sarah@yourbusiness.com" required>
             </div>
             <div class="fg">
               <label for="hf4">Phone Number *</label>
-              <input id="hf4" type="tel" placeholder="+1 (800) 000-0000" required>
+              <input id="hf4" name="user_phone" type="tel" placeholder="+1 (800) 000-0000" required>
             </div>
             <div class="fg">
               <label for="hf5">What kind of VA do you need? *</label>
-              <select id="hf5" required>
+              <select id="hf5" name="va_type" required>
                 <option value="" disabled selected>Select type</option>
                 <option>General / Admin VA</option>
                 <option>Executive Assistant</option>
@@ -810,16 +838,16 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
             </div>
             <div class="fg">
               <label for="hf6">Hours needed per week?</label>
-              <select id="hf6">
+              <select id="hf6" name="hours_needed">
                 <option value="" disabled selected>Select hours</option>
-                <option>Part-time (10-20 hrs/week)</option>
+                <option>Part-time (1020 hrs/week)</option>
                 <option>Full-time (40 hrs/week)</option>
                 <option>Flexible / project basis</option>
               </select>
             </div>
             <div class="fg">
               <label for="hf7">Quick description of tasks</label>
-              <textarea id="hf7" placeholder="E.g. inbox management, calendar scheduling, CRM updates, customer emails"></textarea>
+              <textarea id="hf7" name="task_description" placeholder="E.g. inbox management, calendar scheduling, CRM updates, customer emails"></textarea>
             </div>
             <button type="submit" class="btn-submit">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
@@ -1336,13 +1364,13 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
             <form id="bottomForm" novalidate>
               <div class="fg">
                 <label for="bf1">Full Name *</label>
-                <input id="bf1" type="text" placeholder="Mike" required>
+                <input id="bf1" name="user_name" type="text" placeholder="Mike" required>
               </div>
-              <div class="fg"><label for="bf3">Business Email *</label><input id="bf3" type="email" placeholder="mike@yourcompany.com" required></div>
-              <div class="fg"><label for="bf4">Phone Number *</label><input id="bf4" type="tel" placeholder="+1 (800) 000-0000" required></div>
+              <div class="fg"><label for="bf3">Business Email *</label><input id="bf3" name="user_email" type="email" placeholder="mike@yourcompany.com" required></div>
+              <div class="fg"><label for="bf4">Phone Number *</label><input id="bf4" name="user_phone" type="tel" placeholder="+1 (800) 000-0000" required></div>
               <div class="fg">
                 <label for="bf5">Business Type</label>
-                <select id="bf5">
+                <select id="bf5" name="business_type">
                   <option value="" disabled selected>Select industry</option>
                   <option>Startup / Tech</option>
                   <option>Real Estate</option>
@@ -1358,7 +1386,7 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
               </div>
               <div class="fg">
                 <label for="bf6">What tasks do you want to delegate? *</label>
-                <textarea id="bf6" placeholder="E.g. inbox management, social media scheduling, lead research, customer support" required></textarea>
+                <textarea id="bf6" name="task_description" placeholder="E.g. inbox management, social media scheduling, lead research, customer support" required></textarea>
               </div>
               <button type="submit" class="btn-submit">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
@@ -1432,7 +1460,7 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       Hire My VA  From $9/hr
     </a>
-    <a href="tel:+1800000000" class="btn-hero-ghost">
+    <a href="tel:+19179387208" class="btn-hero-ghost">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.34 12 19.79 19.79 0 011.28 3.43 2 2 0 013.27 1.25h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
       Book a Call
     </a>
@@ -1459,7 +1487,7 @@ footer{background:var(--ink-2);padding:2.5rem 4rem;display:flex;align-items:cent
 <div class="sticky" id="stickyBar">
   <div class="sticky-left"><strong>GlocalAssist VAs from $9/hr</strong>  Dedicated, expert, US-hours. 48hr onboarding.</div>
   <div class="sticky-right">
-    <a href="tel:+1800000000" class="sticky-tel">
+    <a href="tel:+19179387208" class="sticky-tel">
       <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.34 12 19.79 19.79 0 011.28 3.43 2 2 0 013.27 1.25h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
       Free Consult
     </a>
@@ -1482,7 +1510,7 @@ const sb=document.getElementById('stickyBar')
 window.addEventListener('scroll',()=>sb.classList.toggle('vis',scrollY>700),{passive:true})
 
 /* FORM HANDLER */
-function bindForm(fId,bodyId,sucId){
+function bindForm(fId,bodyId,sucId,templateId){
   const form=document.getElementById(fId)
   if(!form)return
   form.addEventListener('submit',function(e){
@@ -1499,14 +1527,28 @@ function bindForm(fId,bodyId,sucId){
       }
     })
     if(!ok)return
-    document.getElementById(bodyId).style.display='none'
-    const s=document.getElementById(sucId)
-    s.style.display='block'
-    s.scrollIntoView({behavior:'smooth',block:'center'})
+    
+    // EmailJS submission
+    const submitBtn = this.querySelector('.btn-submit');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = 'Sending...';
+    submitBtn.disabled = true;
+
+    // EmailJS submission
+    emailjs.sendForm('service_5ukbpwr', templateId, this)
+      .then(() => {
+          // Success! Redirect to the thank you page
+          window.location.href = 'https://www.glocalassist.com/thank-you';
+      }, (error) => {
+          console.error('FAILED...', error);
+          alert('Oops! Something went wrong. Please try again.');
+          submitBtn.innerHTML = originalText;
+          submitBtn.disabled = false;
+      });
   })
 }
-bindForm('heroForm','hero-form-body','hero-success')
-bindForm('bottomForm','bform-body','bform-success')
+bindForm('heroForm','hero-form-body','hero-success','template_wlrxpzc')
+bindForm('bottomForm','bform-body','bform-success','template_w43nxpu')
 
 /* Smooth anchor scroll for nav */
 document.querySelectorAll('a[href^="#"]').forEach(a=>{
